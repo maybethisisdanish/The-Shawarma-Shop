@@ -1,0 +1,43 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    /* background-color: black;
+    color: white; */
+}
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+.buttons{
+    width: 90px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+bi bi-instagram{
+    width: 252px;
+}
+bi bi-envelope{
+    width: 385px;
+}
+svg{
+    padding: 85px;
+    color: rgb(36, 36, 36);
+}
